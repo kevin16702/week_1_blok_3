@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+.imagecontainer{
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+#image{
+    object-fit: contain;
+    margin: 0;
+    height: auto;
+    width: 100%;
+}
+p{
+    font-size: 4em;
+    color: white;
+    margin-top: -35%;
+}
