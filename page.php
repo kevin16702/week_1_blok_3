@@ -44,7 +44,7 @@ $hour = (int) date("Hi");
     document.getElementById("image").src= "afternoon.png";
     document.getElementById("txt").innerHTML = goedemiddag;
     </script>';
-}   elseif($hour >= 1800 && $hour < 000){
+}   elseif($hour >= 1800 && $hour < 2399){
     echo '<script type="text/javascript">
     document.getElementById("image").src= "evening.png";
     document.getElementById("txt").innerHTML = goedenavond;
